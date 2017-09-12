@@ -1,0 +1,11 @@
+engines:
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - ruby:
+      - javascript:
+      - php:
+      - python:
+exclude_paths:
+- "**/api-console-vendor.js"
